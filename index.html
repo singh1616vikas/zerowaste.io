@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project on Zero Waste</title>
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+    <!-- Bootstrap CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- header section start -->
+    <header>
+        <!-- top nav -->
+        <nav class="py-2 border-bottom align-items-center primary-color">
+            <div class="container d-flex flex-wrap">
+                <ul class="nav me-auto none">
+                    <a href="#"><i class="fas fa-envelope px-2"></i>@zerowaste.gmail.com</a>
+                    <a href="#"><i class="fas fa-phone-alt px-2"></i>+91-8407956231</a>
+                </ul>
+                <ul class="nav none d-none d-sm-flex">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </ul>
+            </div>
+        </nav>
+        <!-- main nav -->
+        <div class="py-3 border-bottom bg-white position" id="home">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.png" alt="" class="img-fluid">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Waste Management
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="plasticWaste.html">Plastic Waste</a></li>
+                                    <li><a class="dropdown-item" href="#">Waste Processing</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Zero Waste Events</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="news.html">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <button class="btn btn-outline-warn">Login/Signup</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="p-5 mb-4 rounded-3 hero-section">
+            <div class="container py-5">
+                <h4>Welcome To RWBC Zero Waste</h4>
+                <h1>63 Million tonnes of<br> Waste.</h1>
+                <p class="col-md-8 fs-4 ">Using a series of utilities, you can create this jumbotron, just like the one
+                    in
+                    previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to
+                    your
+                    liking.</p>
+                <button class="btn btn-outline-warn btn-lg" type="button">Know More</button>
+            </div>
+        </div>
+    </header>
+    <!-- header section end -->
+
+    <!-- About Section Start -->
+    <section class="about-section">
+        <div class="container">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-4">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="images/about.png" class="d-block mx-lg-auto imgs" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6 position-relative">
+                    <h4 class="before green-text">About Us</h4>
+                    <h1 class="display-5 fw-bold primary-text lh-1 mb-3">Always Working for a Clean Tomorrow </h1>
+                    <p class="lead primary-text">Quickly design and customize responsive mobile-first sites with
+                        Bootstrap, the
+                        world’s most
+                        popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid
+                        system,
+                        extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-outline-warn btn-lg me-md-2">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section Start -->
+
+    <!-- pickup request -->
+    <div class="request text-secondary px-4 py-5 my-2 text-center align-items-center">
+        <div class="py-5 mt-4">
+            <h1 class="display-5 fw-bold text-white">Manage Waste Effectively<br>
+                and Reduce Environmental Impact</h1>
+            <div class="col-lg-6 mx-auto">
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-outline-warn btn-lg px-4 me-sm-3 fw-bold"
+                        data-bs-toggle="modal" data-bs-target="#requestPickup">Request a
+                        Pickup</button>
+                    <button type="button" class="btn btn-green btn-lg px-4">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Request Pickup Modal -->
+    <div class="modal fade" id="requestPickup" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="requestPickupLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-black" id="requestPickupLabel">Zero Waste</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-4">
+                            <label for="validationCustom01" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom02" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustomUsername" class="form-label">Username</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                <input type="text" class="form-control" id="validationCustomUsername"
+                                    aria-describedby="inputGroupPrepend" required>
+                                <div class="invalid-feedback">
+                                    Please choose a username.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationCustom03" class="form-label">City</label>
+                            <input type="text" class="form-control" id="validationCustom03" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid city.
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationCustom04" class="form-label">State</label>
+                            <select class="form-select" id="validationCustom04" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>...</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationCustom05" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="validationCustom05" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid zip.
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    Agree to terms and conditions
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Submit form</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Customer section start -->
+    <section class="our-customers">
+        <div class="container">
+            <div class="px-4 py-4 text-center position-relative">
+                <h4 class="green-text before">Our Customers</h4>
+                <h1 class="display-5 fw-bold text-body-emphasis">What Our Customers Are Talking<br> About Our Services
+                </h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4 primary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor
+                        incididunt ut labore et dolore magna
+                        aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus
+                        vel facilisis.</p>
+                </div>
+            </div>
+            <div class="row text-center gx-4 px-2">
+                <div class="col-lg-4 col-sm-6 p-2">
+                    <div class="services-box">
+                        <img src="images/customer-1.png" alt="" class="img-fluid">
+                        <h4 class="primary-text pt-1">ETHEL RAMSEY</h4>
+                        <h6>CEO, Manager</h6>
+                        <p class="primary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                        <a href="#" class="btn btn-green">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 p-2">
+                    <div class="services-box">
+                        <img src="images/customer-2.png" alt="" class="img-fluid">
+                        <h4 class="primary-text pt-1">Aiden-Hunter</h4>
+                        <h6>FOUNDER</h6>
+                        <p class="primary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                        <a href="#" class="btn btn-green">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 p-2">
+                    <div class="services-box">
+                        <img src="images/customer-3.png" alt="" class="img-fluid">
+                        <h4 class="primary-text pt-1">Fannie-Stewart</h4>
+                        <h6>FOUNDER</h6>
+                        <p class="primary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                        <a href="#" class="btn btn-green">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- sell section start -->
+    <section class="sell">
+        <div class="container">
+            <div class="px-4 py-4 text-center position-relative">
+                <h1 class="display-5 fw-bold text-body-emphasis">What We Sell</h1>
+            </div>
+            <div class="row gx-5">
+                <div class="col-lg-4 col-sm-6">
+                    <img src="images/sell-1.png" alt="" class="img-fluid">
+                    <h4 class="primary-text pt-1">RPSF</h4>
+                    <p class="primary-text">RPSF company is supplying Recycled Polyester Staple Fibre with quality
+                        parameters very next to virgin PSF.</p>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <img src="images/sell-2.png" alt="" class="img-fluid">
+                    <h4 class="primary-text pt-1">HTRPSF</h4>
+                    <p class="primary-text">High Tenacity Recycled Polyester Staple Fibre is available in various cut
+                        lengths and deniers suitable for different
+                        industries like spinning, non-woven and technical textiles.</p>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <img src="images/sell-3.png" alt="" class="img-fluid">
+                    <h4 class="primary-text pt-1">PET FLAKES</h4>
+                    <p class="primary-text">PET flakes are produced from used water and cold drink bottles and being
+                        offered with different quality parameters for
+                        use in manufacturing of PET Sheets, Recycled Polyester Staple Fibre, Recycled POY, PET Strap
+                        and
+                        many more products.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- buy section start -->
+    <section class="buy" id="buy">
+        <div class="container">
+            <div class="px-4 py-4 text-center position-relative">
+                <h1 class="display-5 fw-bold text-body-emphasis">What We Buy</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-12">
+                    <img src="images/buy-1.png" alt="" class="img-fluid">
+                    <h4 class="primary-text pt-2">PET Bottles</h4>
+                    <p class="primary-text">RPSF company is supplying Recycled Polyester Staple Fibre with quality
+                        parameters very next to virgin PSF.</p>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <img src="images/buy-2.png" alt="" class="img-fluid">
+                    <h4 class="primary-text pt-2">PET Flakes</h4>
+                    <p class="primary-text">High Tenacity Recycled Polyester Staple Fibre is available in various cut
+                        lengths and deniers suitable for different
+                        industries like spinning, non-woven and technical textiles.</p>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <img src="images/buy-3.png" alt="" class="img-fluid">
+                    <h4 class="primary-text pt-2">PET CHIPS</h4>
+                    <p class="primary-text">PET flakes are produced from used water and cold drink bottles and being
+                        offered with different quality parameters for
+                        use in manufacturing of PET Sheets, Recycled Polyester Staple Fibre, Recycled POY, PET Strap
+                        and
+                        many more products.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- cersouls -->
+    <div class="container mt-4">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/banner-bg.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/hero-3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/hero-4.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Latest News Start-->
+    <section class="latest">
+        <div class="container py-5">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h1 class="display-5 fw-bold text-body-emphasis">Latest News & Blogs</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 col-12">
+                    <div class="row g-3">
+                        <div class="col-lg-6 col-12">
+                            <img src="images/news-1.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <img src="images/news-2.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div>
+                        <h4 class="fst-italic text-black fs-4">Recent posts</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="d-flex gap-3" href="#">
+                                    <img src="images/blog-1.png" alt="">
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0">Example blog post title</h6>
+                                        <small class="text-body-secondary">January 15, 2023</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                    href="#">
+                                    <img src="images/blog-2.png" alt="">
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0">This is another blog post title</h6>
+                                        <small class="text-body-secondary">January 14, 2023</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                    href="#">
+                                    <img src="images/blog-3.png" alt="">
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0">Longer blog post title: This one has multiple lines!</h6>
+                                        <small class="text-body-secondary">January 13, 2023</small>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest News Start-->
+
+    <!-- footer -->
+    <footer class="bd-footer pt-4 pt-md-5 mt-5 footer-bg position-relative">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-4 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/"
+                        aria-label="Bootstrap">
+                        <img src="images/footer-logo.png" alt="">
+                    </a>
+                    <ul class="list-unstyled my-2">
+                        <li class="mb-2 text-white">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna
+                            aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra mae
+                            -cenas accumsan lacus vel facilisis.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5 class="text-uppercase text-white">Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#">About</a></li>
+                        <li class="mb-2"><a href="#">Waste Management</a></li>
+                        <li class="mb-2"><a href="#">Media</a></li>
+                        <li class="mb-2"><a href="#">Blogs</a></li>
+                        <li class="mb-2"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5 class="text-uppercase text-white">Information</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#">Help</a></li>
+                        <li class="mb-2"><a href="#">Terms</a></li>
+                        <li class="mb-2"><a href="#">Privacy & Policy</a></li>
+                        <li class="mb-2"><a href="#">Careers</a></li>
+                        <li class="mb-2"><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-4 mb-3">
+                    <h5 class="text-uppercase text-white">Newsletter</h5>
+                    <ul class="list-unstyled">
+                        <!-- <form action="" class="d-flex flex-column g-3">
+                            <input type="text" placeholder="Enter Your Email">
+                            <a href="#" class="btn btn-green">Subscribe</a>
+                        </form> -->
+                        <form class="row gx-3 gy-4 flex-column">
+                            <div class="col-auto">
+                                <input type="text" class="form-control" id="specificSizeInputName"
+                                    placeholder="Enter Your Email">
+                            </div>
+                            <div class="col-auto">
+                                <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+                                <a href="#" class="btn btn-green form-control sub">Subscribe</a>
+                            </div>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+            <!-- Footer bottom -->
+            <div class="d-flex flex-column flex-sm-row justify-content-between pt-4 mt-4 border-top">
+                <p>© 2023 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="fabs" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="ms-3"><a class="fabs" href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="ms-3"><a class="fabs" href="#"><i class="fab fa-facebook"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- arrow key -->
+    <a href="#" class="arrow">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!--Bootstrap JS cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
